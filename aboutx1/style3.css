@@ -766,3 +766,45 @@ marquee{
         align-items: center;
     }
 }
+
+
+/* 
+blink market pi price */
+
+.blink {
+    color: rgb(255, 0, 0);
+    animation: blinkAnimation 1s infinite; /* 1-second delay */
+   
+}
+
+@keyframes blinkAnimation {
+    0% { opacity: 1; } /* Fully visible */
+    50% { opacity: 0.3; } /* Fully transparent */
+    100% { opacity: 1; } /* Fully visible */
+}
+
+
+.blink1 {
+    color: rgb(1, 156, 53);
+    animation: blink1Animation 2s infinite; /* 1-second delay */
+    
+    
+}
+
+@keyframes blink1Animation {
+    0% { opacity: 1; } /* Fully visible */
+    50% { opacity: 0; } /* Fully transparent */
+    100% { opacity: 1; } /* Fully visible */
+}
+
+.liveratepi{
+    background:  #3e0446;
+    
+
+}
+
+.pic{
+ margin-left: 20px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
