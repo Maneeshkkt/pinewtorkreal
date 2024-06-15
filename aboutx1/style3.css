@@ -808,3 +808,8 @@ blink market pi price */
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+
+.liveratepi p{
+    font-size: 11px;
+}
